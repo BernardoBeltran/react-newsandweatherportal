@@ -1,0 +1,33 @@
+.contenedor-noticias {
+    background-color: var(--light-1);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width:768px) {
+    .contenedor-noticias {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width:1024px) {
+    .contenedor-noticias {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.noticia-card {
+    padding: .4rem;
+    border: solid 1px var(--dark-2);
+    border-radius: .3rem;
+}
+
+.noticia-titulo {
+    font-weight: 900;
+    color: var(--blue-1);
+}
+
+.noticia-autor {
+    font-weight: 700;
+}

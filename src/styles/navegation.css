@@ -1,0 +1,66 @@
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    margin: .4rem;
+
+}
+
+@media (min-width: 768px) {
+    nav ul {
+        display: flex;
+
+    }
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--blue-1);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.login-btn,
+.logout-btn {
+    background-color: var(--blue-1);
+    color: var(--light-1);
+    padding: .5rem;
+    border: none;
+    border-radius: .3rem;
+    font-weight: 700;
+    transition-property: filter;
+    transition-duration: 300ms;
+
+}
+
+.login-btn:hover,
+.logout-btn:hover {
+    cursor: pointer;
+    filter: brightness(.9);
+}
+
+.logout-btn {
+    background-color: var(--red-1);
+}
+
+.loading-alert {
+    font-size: 1.3rem;
+    color: var(--dark-1);
+}
+
+.user-image {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.user-name {
+    font-weight: 700;
+}
+
+.user-name,
+.user-email {
+    margin: 0;
+}

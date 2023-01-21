@@ -1,0 +1,66 @@
+:root {
+    --outfit-font: san-serif;
+    --font-size: 16px;
+    --light-1: #f5f5f5;
+    --dark-1: #404040;
+    --dark-2: #aaaaaa;
+    --blue-1: #53435B;
+    --red-1: #cf6679;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--outfit-font);
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+    color: var(--dark-1);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--red-1);
+}
+
+header {
+    width: 100%;
+
+    padding: .5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo {
+    max-width: 250px;
+}
+
+@media (min-width:768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
