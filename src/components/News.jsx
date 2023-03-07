@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const News = ({ articulo }) => {
     const { author, title, description, urlToImage } = articulo;
+
     return (
         <div className="noticia-card">
             <img src={urlToImage} alt={`Imagen del articulo ${title}`} />

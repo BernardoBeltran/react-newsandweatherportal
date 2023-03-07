@@ -10,7 +10,6 @@ export function loader() {
 
 const Weather = () => {
     const clima = useLoaderData();
-    console.log(clima);
 
     return (
         <div>
