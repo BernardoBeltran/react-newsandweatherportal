@@ -14,6 +14,8 @@ const Index = () => {
     const noticias = useLoaderData();
     const articulos = noticias.articles;
 
+    console.log(articulos);
+
     return (
         <div className="contenedor-noticias">
             {articulos.map((articulo) => (
