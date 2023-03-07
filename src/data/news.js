@@ -1,7 +1,7 @@
 // Función para obtener las últimas noticias
 export async function getNoticias() {
     const respuesta = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=us&apiKey=${
+        `https://newsapi.org/v2/top-headlines?country=co&apiKey=${
             import.meta.env.VITE_NEWS_API_KEY
         }`
     );
