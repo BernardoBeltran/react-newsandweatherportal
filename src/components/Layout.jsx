@@ -11,7 +11,7 @@ const Layout = () => {
             <header>
                 <div className="logo">
                     <Link to="/">
-                        <img src="/img/logo.png" alt="Logo  NotiCALI" />
+                        <img src="./img/logo.PNG" alt="Logo  NotiCALI" />
                     </Link>
                 </div>
                 <div className="controles-header">
